@@ -1,6 +1,7 @@
 # Typescript General Purpose Starter
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/RayGuo-ergou/typescript-general-starter)
+[![Run lint and test](https://github.com/RayGuo-ergou/typescript-general-starter/actions/workflows/ci.yml/badge.svg)](https://github.com/RayGuo-ergou/typescript-general-starter/actions/workflows/ci.yml)
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz_small.svg)](https://stackblitz.com/github/RayGuo-ergou/typescript-general-starter)
 
 Welcome to the Typescript General Purpose Starter, a comprehensive and versatile starter repository for TypeScript projects. This repository is designed to provide you with a robust starting point for any TypeScript application, whether it's for web development, server-side applications, or general utility scripts.
 
