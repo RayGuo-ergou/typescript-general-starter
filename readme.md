@@ -29,10 +29,12 @@ In this project, [nodemon](https://nodemon.io/) combined with [ts-node](https://
     "module": "ESNext",
     "moduleResolution": "Bundler",
     "resolveJsonModule": true,
+    "allowImportingTsExtensions": true,
     "allowJs": true,
     "strict": true,
     "noUncheckedIndexedAccess": true,
     "noEmit": true,
+    "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
     "isolatedModules": true,
     "skipLibCheck": true
@@ -76,6 +78,33 @@ To fix the linting errors, run:
 
 ```bash
 pnpm lint:fix
+```
+
+## Test
+[Vitest](https://vitest.dev) is used for testing, it's a very simple and fast test utility for Typescript projects.
+
+As an example, create a simple `sum` function in `src/utility/sum.ts`:
+
+```ts
+// sum.ts
+export const sum = (a: number, b: number) => a + b
+```
+
+Then create a test file called `sum.test.ts` in the `src/utility` folder, and write the following code:
+
+```ts
+// sum.test.js
+import { expect, it } from 'vitest'
+import { sum } from './sum'
+
+it('adds 1 + 2 to equal 3', () => {
+  expect(sum(1, 2)).toBe(3)
+})
+```
+To run the test, run:
+
+```bash
+pnpm test
 ```
 
 ## License
