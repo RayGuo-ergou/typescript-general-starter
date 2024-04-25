@@ -3,17 +3,19 @@
     "target": "es2022",
     "lib": ["es2022"],
     "moduleDetection": "force",
-    "module": "ESNext",
+    "module": "Preserve",
     "moduleResolution": "Bundler",
     "resolveJsonModule": true,
     "allowImportingTsExtensions": true,
     "allowJs": true,
     "strict": true,
+    "noImplicitOverride": true,
     "noUncheckedIndexedAccess": true,
     "noEmit": true,
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
     "isolatedModules": true,
+    "verbatimModuleSyntax": true,
     "skipLibCheck": true
   }
 }
