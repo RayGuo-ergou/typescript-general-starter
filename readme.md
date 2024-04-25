@@ -4,6 +4,8 @@
 [![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz_small.svg)](https://stackblitz.com/github/RayGuo-ergou/typescript-general-starter)
 [![code style](https://antfu.me/badge-code-style.svg)](https://github.com/antfu/eslint-config)
 
+![Typescript](./public/TypeScript.png)
+
 Welcome to the Typescript General Purpose Starter, a comprehensive and versatile starter repository for TypeScript projects. This repository is designed to provide you with a robust starting point for any TypeScript application, whether it's for web development, server-side applications, or general utility scripts.
 
 ## Getting Started
@@ -64,8 +66,6 @@ to
 }
 ```
 
-Reference: [The TSConfig Cheat Sheet](https://www.totaltypescript.com/tsconfig-cheat-sheet) from [Matt Pococks](https://www.mattpocock.com/)
-
 ## Code formatting and linting
 
 I am using my [own eslint configuration](https://github.com/RayGuo-ergou/eslint-config), which is based on [antfu/eslint-config](https://github.com/antfu/eslint-config) with my personalized rules.
@@ -114,3 +114,9 @@ pnpm test
 ## License
 
 This project is licensed under the [MIT License](./LICENSE).
+
+## Reference
+
+Reference: [The TSConfig Cheat Sheet](https://www.totaltypescript.com/tsconfig-cheat-sheet) from [Matt Pococks](https://www.mattpocock.com/)
+
+Icon: [SAWARATSUKI](https://github.com/SAWARATSUKI/ServiceLogos)
