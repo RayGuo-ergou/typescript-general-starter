@@ -18,8 +18,6 @@ jobs:
       - name: install pnpm 📦
         uses: pnpm/action-setup@v2.2.4
         id: pnpm-install
-        with:
-          version: 9
       - name: Get pnpm store directory 📂
         id: pnpm-cache
         shell: bash
@@ -50,8 +48,6 @@ jobs:
       - name: install pnpm 📦
         uses: pnpm/action-setup@v2.2.4
         id: pnpm-install
-        with:
-          version: 9
       - name: Get pnpm store directory 📂
         id: pnpm-cache
         shell: bash
@@ -82,8 +78,6 @@ jobs:
       - name: install pnpm 📦
         uses: pnpm/action-setup@v2.2.4
         id: pnpm-install
-        with:
-          version: 9
       - name: Get pnpm store directory 📂
         id: pnpm-cache
         shell: bash
